@@ -8,6 +8,7 @@ public class DynamicGrid : MonoBehaviour
 
     private IEnumerator _corontine;
 
+    //adjust the size of the grid
     IEnumerator ChangeCellSize()
     {
         yield return new WaitForEndOfFrame();
